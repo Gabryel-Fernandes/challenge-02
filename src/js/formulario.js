@@ -4,7 +4,6 @@ const error = document.querySelectorAll('.error')
 
 btnSubmit.addEventListener('click', verificarCampos)
 
-
 /*
 
 // Aqui uma funcionalidade a mais para o codigo, ele verifica em tempo real se os inputs forem modificados
