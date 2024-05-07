@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pergunta{
+    margin: 0px 60px;
+    width: 480px;
+}
+
+.pergunta .title{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.pergunta .text{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.formulario-validacao{
+    background-color: #fff;
+    width: 600px;
+    height: 700px;
+    margin: 10px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formulario-validacao .inputs{
+    margin: 25px 25px 0px 25px;
+    height: 50px;
+    padding: 0px 0px 0px 10px;
+    
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.formulario-validacao .mensage{
+    height: 250px;
+    padding: 0px 0px 200px 10px;
+}
+
+span{
+    margin: 0px 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.formulario-validacao .submit{
+    margin: 25px 25px 25px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    background-color: #3CCC87;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error{
+    color: #cf2c2c;
+    font-size: 12px;
+    font-weight: 500;
+    display: none;
+}
+
+.border-valid{
+    border: 2px solid #3CCC87;
+}
+
+.border-invalid{
+   border: 2px solid #cf2c2c;
+} 
+
+.border{
+    border: 2px solid #000;
+}
